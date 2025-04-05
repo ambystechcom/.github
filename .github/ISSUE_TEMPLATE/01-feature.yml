@@ -48,21 +48,6 @@ body:
     validations:
       required: false
   - type: dropdown
-    id: estimation-points
-    attributes:
-      label: Estimation Points
-      description: Provide an estimation point for this feature.
-      options:
-        - 1
-        - 2
-        - 3
-        - 5
-        - 8
-        - 13
-        - 21
-    validations:
-      required: false
-  - type: dropdown
     id: browsers
     attributes:
       label: What browsers are you seeing the problem on?
