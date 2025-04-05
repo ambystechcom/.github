@@ -1,0 +1,88 @@
+name: Feature
+description: Create a new Feature Issue.
+title: "[Feature]: "
+labels: ["feature"]
+projects: ["ambystechcom/2"]
+assignees:
+  - tavobarrientos
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Create a new feature issue. Please provide as much detail as possible to help us understand your request.
+        **Note:** If you select "Web" as the project type, please fill out the "Browsers" field below.
+  - type: dropdown
+    id: project-type
+    attributes:
+      label: Project Type
+      description: Select the type of project.
+      options:
+        - Web
+        - Mobile
+        - Backend
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@ambystech.com
+    validations:
+      required: false
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance Criteria
+      description: List the acceptance criteria for this feature.
+      placeholder: ex. The feature should allow users to log in, log out, and reset their password.
+    validations:
+      required: true
+  - type: textarea
+    id: dev-notes
+    attributes:
+      label: Developer Notes
+      description: Add any notes or context for the developer working on this feature.
+      placeholder: ex. This feature depends on API X being available.
+    validations:
+      required: false
+  - type: dropdown
+    id: estimation-points
+    attributes:
+      label: Estimation Points
+      description: Provide an estimation point for this feature.
+      options:
+        - 1
+        - 2
+        - 3
+        - 5
+        - 8
+        - 13
+        - 21
+    validations:
+      required: false
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browsers are you seeing the problem on?
+      description: Only fill this out if the project type is "Web".
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Edge
+        - Safari
+        - Microsoft Edge
+        - Mobile Safari
+        - Mobile Chrome
+        - Mobile Firefox
+        - Mobile Edge
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://ambystech.com/oss/conduct.pdf). 
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
