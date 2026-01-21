@@ -1,5 +1,3 @@
-## Hi there 👋
-
 # Ambystech 🦎
 
 Software engineering studio focused on building **clean, scalable, production-ready systems**.
@@ -41,3 +39,7 @@ Contributions are welcome — **issues, discussions, and PRs** 👋
 
 📍 Monterrey, Mexico 🇲🇽 · Remote-first 🌍  
 Built with .NET, Angular, Swift, Azure, and modern DevOps practices.
+
+**Contact Us!**  
+development@ambystech.com  
+hi@ambystech.com
