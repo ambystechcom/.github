@@ -1,12 +1,43 @@
 ## Hi there 👋
 
-<!--
+# Ambystech 🦎
 
-**Here are some ideas to get you started:**
+Software engineering studio focused on building **clean, scalable, production-ready systems**.
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+We design and ship real-world products with strong architecture, pragmatism, and long-term maintainability in mind.
+
+---
+
+## What we do
+
+- SaaS platforms & internal tools  
+- APIs, integrations, and event-driven systems  
+- Frontend, mobile, and AI-powered workflows  
+
+---
+
+## How we work
+
+- Simple systems that scale  
+- Automation by default  
+- Code as a long-term asset  
+
+---
+
+## Open Source
+
+We maintain **public repositories** used in real projects.  
+Contributions are welcome — **issues, discussions, and PRs** 👋
+
+- **Ambystech.Neo4j**  
+  Library to get data from Neo4j using the Repository Pattern  
+  https://github.com/ambystechcom/Ambystech.Neo4j.Repository
+
+- **Ambystech.Elaris.UI**  
+  A lightweight TUI library for .NET  
+  https://github.com/ambystechcom/Ambystech.Elaris.UI
+
+---
+
+📍 Monterrey, Mexico 🇲🇽 · Remote-first 🌍  
+Built with .NET, Angular, Swift, Azure, and modern DevOps practices.
