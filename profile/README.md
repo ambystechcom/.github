@@ -1,4 +1,4 @@
-# Ambystech 🦎
+# Ambystech
 
 Software engineering studio focused on building **clean, scalable, production-ready systems**.
 
